@@ -1,0 +1,70 @@
+{
+    "queries": [
+        {
+            "Class Number": 1,
+            "Architecture Number": 10,
+            "Topology Number": 10,
+            "Superfamily Number": 10
+        },
+        {
+            "Class Number": 1,
+            "Architecture Number": 10,
+            "Topology Number": 10,
+            "Superfamily Number": 60
+        },
+        {
+            "Class Number": 1,
+            "Architecture Number": 10,
+            "Topology Number": 20,
+            "Superfamily Number": 10
+        },
+        {
+            "Class Number": 1,
+            "Architecture Number": 10,
+            "Topology Number": 238,
+            "Superfamily Number": 10
+        },
+        {
+            "Class Number": 2,
+            "Architecture Number": 30,
+            "Topology Number": 30,
+            "Superfamily Number": 40
+        },
+        {
+            "Class Number": 2,
+            "Architecture Number": 30,
+            "Topology Number": 30,
+            "Superfamily Number": 100
+        },
+        {
+            "Class Number": 2,
+            "Architecture Number": 40,
+            "Topology Number": 50,
+            "Superfamily Number": 40
+        },
+        {
+            "Class Number": 2,
+            "Architecture Number": 40,
+            "Topology Number": 70,
+            "Superfamily Number": 10
+        },
+        {
+            "Class Number": 2,
+            "Architecture Number": 60,
+            "Topology Number": 40,
+            "Superfamily Number": 10
+        },
+        {
+            "Class Number": 3,
+            "Architecture Number": 10,
+            "Topology Number": 20,
+            "Superfamily Number": 90
+        },
+        {
+            "Class Number": 3,
+            "Architecture Number": 30,
+            "Topology Number": 70,
+            "Superfamily Number": 330
+        }
+    ]
+}

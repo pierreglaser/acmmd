@@ -1,0 +1,23 @@
+{
+    "venv": "seqmodels-calibration",
+    "pythonVersion": "3.9",
+    "include": [
+      "calibration/",
+      "calibration_benchmarks/",
+      "tests/"
+    ],
+    "ignore": [
+      "vendor/"
+    ],
+    "stubPath": "",
+    "useLibraryCodeForTypes": true,
+    "reportPrivateImportUsage": false,
+    "reportIncompatibleMethodOverride": "error",
+    "reportIncompatibleVariableOverride": "error",
+    "reportPrivateUsage": "error",
+    "reportInconsistentConstructor": "error",
+    "reportImportCycles": "error",
+    "reportMissingParameterType": "warning",
+    "reportPropertyTypeMismatch": "error",
+    "reportMissingTypeArgument": "error"
+}

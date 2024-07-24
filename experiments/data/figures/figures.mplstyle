@@ -1,0 +1,8 @@
+font.size            : 16
+text.usetex          : True
+text.latex.preamble  : \usepackage{amsfonts}
+mathtext.fontset     : dejavuserif
+
+font.family         : [sans-serif]
+font.serif          : Palatino
+font.sans-serif     : Helvetica

@@ -1,0 +1,50 @@
+name: seqmodels-calibration
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.9
+  - setuptools<66
+  - cmake
+  - ninja
+  - pip
+  - jaxlib=0.4.23=*cpu*
+  - jax=0.4.23
+  - jaxopt
+  - blackjax<1.0
+  - biopython
+  - flax
+  - numpyro<0.13
+  - ipykernel
+  - ipywidgets
+  - black
+  - pytest
+  - pytest-env
+  - pytest-xdist
+  - pandas
+  - numpy
+  - pillow
+  - pyro-ppl
+  - pytorch=2.0=*cpu*
+  - torch-scatter
+  - pytorch_cluster
+  - scikit-learn
+  - scipy
+  - easydict
+  - pyyaml
+  - h5py
+  - dask-jobqueue
+  - pip:
+    - pdb-tools
+    - git+https://github.com/diyabc/abcranger@027bff7f8c5e5443edbeba0a2f57a7d226c2a2c3; platform_system == "Darwin"
+    - pyabcranger; platform_system == "Linux"
+    - sbibm
+    - tfp-nightly[jax]==0.24.0.dev20240118
+    - -e ./vendor/jax_samplers
+    - -e ./vendor/kwgflows
+    - -e ./vendor/sbi_ebm/
+    - -e ./calibration
+    - -e ./calibration_benchmarks/
+    - -e ./protein_mpnn/
+    - 'torchdrug>=0.1.3'
+    - fair-esm

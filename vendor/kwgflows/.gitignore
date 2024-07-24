@@ -1,0 +1,7 @@
+out/
+__pycache__/
+*.pyc
+
+.lsp_symlink
+.ropeproject/
+.virtual_documents/
